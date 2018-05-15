@@ -19,7 +19,9 @@ Metadata service is similar to config service. It hold the metadata/config requi
 * see the list of services `kubectl get services`
 
 `NAME               TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE`
+
 `kubernetes         ClusterIP   10.96.0.1        <none>        443/TCP          7m`
+
 `metadata-service   NodePort    10.108.128.201   <none>        8080:31437/TCP   2m`
 
 * copy the mapped port from the service list corresponding to the metadata service and hit 
