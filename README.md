@@ -25,7 +25,7 @@ Metadata service is similar to config service. It hold the metadata/config requi
 `metadata-service   NodePort    10.108.128.201   <none>        8080:31437/TCP   2m`
 
 * copy the mapped port from the service list corresponding to the metadata service and hit 
-  http://<<minikube-ip>>:<<port>> and see the result, here `http://192.168.99.100:31437`.
+  [GET]http://minikube-ip:port and see the result, here `http://192.168.99.100:31437`.
 
 
 
